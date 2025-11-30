@@ -1,0 +1,70 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["hi", "how are you", "is anyone there?", "hello", "good day", "whats up", "hey", "greetings"],
+            "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["cya", "see you later", "goodbye", "i am leaving", "have a good day", "bye", "cao", "see ya"],
+            "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+        },
+        {
+            "tag": "programming",
+            "patterns": [
+              "what do you do?",
+              "tell me about your purpose",
+              "what is your functionality?",
+              "what are you programmed for?",
+              "explain your job",
+              "what is programming?",
+              "define software development",
+              "explain coding"
+            ],
+            "responses": [
+              "Programming, coding or software development, means writing computer code to automate tasks."
+            ]
+          },
+        {
+            "tag": "resource",
+            "patterns": ["where can i learn to code?", "best way to learn to code", "how can i learn programming", "good programming resources", "can you recommend good coding resources?"],
+            "responses": ["Check out the NeuralNine YouTube channel and The Python Bible series (7 in 1)."]
+        },
+        {
+            "tag": "stocks",
+            "patterns": ["what are my stocks?", "which stocks do i own?", "show my stock portfolio"],
+            "responses": ["Here are your stocks!"]
+        },
+        {
+            "tag": "no-response",
+            "patterns": [],
+            "responses": ["Sorry, I'm not sure how to respond to that. Could you try rephrasing?", "I don't have an answer for that right now. Could we talk about something else?", "I'm still learning. Can you provide more information?"]
+        },
+        {
+            "tag": "general_knowledge",
+            "patterns": ["what is", "who is", "where is", "when did", "how many", "explain", "tell me about"],
+            "responses": ["Let me find that for you...", "Searching my knowledge base...", "Here's what I found..."]
+        },
+        {
+            "tag": "number_info",
+            "patterns": ["what is a number?", "explain number", "tell me about numbers"],
+            "responses": ["A number is a mathematical object used to count, measure, and label.", "Numbers are fundamental to mathematics. They can be real, imaginary, or complex."]
+        },
+        {
+            "tag": "specific_number_query",
+            "patterns": ["tell me about the number", "what is the number", "explain the number"],
+            "responses": []
+        },
+        {
+            "tag": "person_info",
+            "patterns": ["who is", "tell me about", "what do you know about", "who was", "biography of"],
+            "responses": ["Let me look that up for you...", "Searching for information...", "I can help with that. What is the person's name?"]
+        },
+        {
+            "tag": "unknown",
+            "patterns": ["i dont understand", "what is machine", "machine means", "how states are there in america?"],
+            "responses": ["I'm sorry, I don't have an answer for that. Please try asking in a different way.", "I'm still learning. Can you please rephrase your question?", "That's a bit beyond my current knowledge. Can we talk about something else?"]
+        }
+    ]
+}
